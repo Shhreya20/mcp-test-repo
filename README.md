@@ -1,1 +1,1 @@
-# mcp-test-repo
+<!-- This repository is used for testing MCP (Model Context Protocol) integrations and workflows. -->
