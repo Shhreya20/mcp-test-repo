@@ -12,3 +12,7 @@ def get_discount(price, is_member):
 
 def calculate_tax(price):
     return price * 0.18
+
+
+def calculate_total(price, tax):
+    return price + tax
