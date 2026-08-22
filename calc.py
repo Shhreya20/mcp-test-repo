@@ -18,6 +18,8 @@ def calculate_tax(price):
 
 
 def apply_bulk_discount(prices, threshold, discount_rate):
+    if not (0 <= discount_rate <= 1):
+        raise ValueError("discount_rate must be between 0 and 1")
     total = sum(prices)
     if total > threshold:
         return total * (1 - discount_rate)
